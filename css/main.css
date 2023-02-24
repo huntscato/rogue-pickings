@@ -165,3 +165,66 @@ footer span {
 	color: #45610E;
 	font-size: .875rem;
 }
+
+@media all and (min-width: 768px) {
+	/**** Tablet Styles ****/
+
+	.bottom-section .content-wrapper {
+	
+		justify-content: space-evenly;
+	}
+	
+	.section-one,
+	.section-two,
+	.section-three {
+		box-sizing: border-box;
+	}
+	
+	.section-one {
+		width: 22%;
+	}
+	
+	.section-two {
+		width: 50%;
+		border-left: 5px solid #EEE;
+		border-right: 5px solid #EEE;
+		border-top: none;
+		border-bottom: none;
+		padding: 0 30px;
+	}
+	
+	.section-three {
+		width: 22%;
+	}
+}
+
+@media all and (min-width: 1200px) {
+	/**** Desktop Styles ****/
+
+	body {
+		font-size: 1em;
+	}
+
+	header .content-wrapper {
+		justify-content: space-between;
+		align-items: center;
+		padding: 20px 0;
+	}
+
+	header h1 {
+		width: 35%;
+		padding: 0;
+		border-bottom: none;
+		text-align: left;
+	}
+
+	header nav {
+		width: 23%;
+	}
+
+	header nav ul {
+		display: flex;
+		justify-content: space-between;
+	}
+
+}
